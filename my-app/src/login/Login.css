@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+  box-sizing: border-box;
+
+ 
+}
+.log{
+  background-color: white;
+}
+.bgc{
+  /* background-image: linear-gradient(to right top, #051437, #123663, #195d90, #1886be, #12b3eb); */
+  background-color: whitesmoke;
+}
+.in{
+  font-family: "Baskervville SC", serif;
+    font-weight: 550;
+}
+.lognav1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 10px 4px 10px;
+}
+.logeng1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+.globe1{
+  
+  font-size: 1.4rem;
+}
+.eng1{
+  font-weight: 500;
+}

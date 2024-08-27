@@ -1,0 +1,384 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+  box-sizing: border-box;
+}
+.nav{
+color: black;
+min-width: 100%;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navdrop{
+
+    align-items: center;
+}
+
+.navdrop:hover{
+    background-color: whitesmoke;
+    color: black;
+
+}
+.img1{
+max-width: 150px;
+}
+.icon1{
+    font-size: 1.3rem;
+}
+.navdrop2{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.icon2{
+    font-size: 18px;
+}
+.btn1{
+    border: 2px solid black ;
+    border-radius:60px;
+    padding: 8px 18px 8px 18px;
+    background-color: white;
+    color: black;
+}
+.btn2{
+    border: 2px solid black ;
+    border-radius: 60px;
+    padding: 8px 18px 8px 18px;
+    background-color: rgb(253 224 71);
+    color: black;
+}
+
+
+.dropdiv{
+    min-width:200vh;
+    height: 100vh;
+}
+/* @media (min-width:1050px){
+    .img1{
+        max-width: 120px;
+    }
+
+
+    .container2{
+        padding: 20px !important;
+       
+        }
+        .switchtomailchimp{
+            padding:10px !important;
+           
+        }
+        .switchbtns{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 30px;
+            }
+    
+            .container3{
+                background-color: #fbeeca;
+                padding: 20px !important;
+            }
+    
+            .container5{
+                background-color: #241c15;
+                padding: 20px !important;
+                color:#fff;
+            }
+    
+            .awards{
+                padding: 20px !important;
+            }
+            .container7{
+                padding: 20px !important;
+            }
+            .container8{
+                background-color: #fbeeca;
+                padding: 20px !important;
+            }
+            
+            .container9{
+                background-color: rgba(216, 149, 4, 0.694);
+                padding: 20px !important;
+            }
+            .container10{
+                padding: 10px !important;
+                margin-top: 20px;
+            }
+            .container11{
+                padding: 20px !important;
+            }
+            .container12{
+                padding: 20px !important;
+            }
+            .intuitassist{
+                margin-top: 20px;
+            }
+            .compare{
+                margin-top: 20px;
+            }
+            .features{
+                margin-top: 30px;
+            }
+            .plan1{
+                font-size: 1.5rem !important;
+                font-weight: 500 !important;
+                padding: 0 !important;
+            }
+            .plan2{
+                font-size: 1.1rem !important;
+                
+            }
+   
+}
+
+@media (max-width:500px){
+    .img1{
+        max-width: 220px;
+    }
+    .container2{
+    padding: 20px !important;
+
+
+    }
+    .switchtomailchimp{
+        padding:10px !important;
+       
+    }
+    .switchbtns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+        }
+
+        .container3{
+            background-color: #fbeeca;
+            padding: 20px !important;
+        }
+
+        .container5{
+            background-color: #241c15;
+            padding: 20px !important;
+            color:#fff;
+        }
+
+        .awards{
+            padding: 20px !important;
+        }
+        .container7{
+            padding: 20px !important;
+        }
+        .container8{
+            background-color: #fbeeca;
+            padding: 20px !important;
+        }
+        
+        .container9{
+            background-color: rgba(216, 149, 4, 0.694);
+            padding: 20px !important;
+        }
+        .container10{
+            padding: 10px !important;
+            margin-top: 20px;
+        }
+        .container11{
+            padding: 20px !important;
+        }
+        .container12{
+            padding: 20px !important;
+        }
+        .intuitassist{
+            margin-top: 20px;
+        }
+        .compare{
+            margin-top: 20px;
+        }
+        .features{
+            margin-top: 30px;
+        }
+        .plan1{
+            font-size: 1.5rem !important;
+            font-weight: 500 !important;
+            padding: 0 !important;
+        }
+        .plan2{
+            font-size: 1.1rem !important;
+            
+        }
+} */
+    
+
+
+
+.switchtomailchimp{
+    padding:70px;
+   
+}
+.switch{
+font-size: 0.9rem;
+font-weight: 500;
+margin-bottom: 5px;
+}
+.marketing{
+font-family: "Baskervville SC", serif;
+    font-weight: 550;
+    letter-spacing: -.0625rem;
+    margin-bottom: 10px;
+    line-height: 3.5rem;
+
+}
+.features{
+    font-size: 1.5rem;
+  font-weight:400;
+}
+.switchbtns{
+display: flex;
+align-items: center;
+gap: 20px;
+margin-top: 30px;
+}
+.switchbtn1{
+    border: 1.5px solid black ;
+    border-radius: 60px;
+    padding: 8px 18px 8px 18px;
+    background-color: rgb(253 224 71);
+    color: black;
+    font-weight: 500;
+}
+.pricingoptions{
+   
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.option{
+font-weight: 500;
+}
+.arrowicon2{
+    font-size: 1.8rem;
+    background-color: rgb(253 224 71);
+    border-radius: 100%;
+   padding: 4px;
+} 
+.container2{
+    background-color: rgba(202, 139, 4, 0.607);
+    padding: 70px;
+}
+.rating{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.container3{
+    background-color: #fbeeca;
+    padding: 70px;
+}
+.intuitpara2{
+font-size: larger;
+}
+.container5{
+    background-color: #241c15;
+    padding: 70px;
+    color:#fff;
+}
+.featurehead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17px;
+
+}
+.featurepara{
+    font-size: 1.1rem;
+}
+.awards{
+    padding: 50px;
+}
+.comparepara2{
+    font-size: 1.2rem;
+}
+.comparepara3{
+    font-size: 1rem;
+}
+.span4{
+    text-decoration: underline ;
+}
+.span4:hover{
+    background-color: rgb(253 224 71);
+
+}
+.container7{
+    padding: 50px;
+}
+.comparehead{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.compare:hover{
+
+    .comparehead{
+        text-decoration: underline;
+    }
+
+}
+.comparebody{
+    font-size: 1.1rem;
+}
+.container8{
+    background-color: #fbeeca;
+    padding: 70px;
+}
+
+.container9{
+    background-color: rgba(216, 149, 4, 0.694);
+    padding: 70px;
+}
+.container10{
+    padding: 70px;
+}
+.plan1{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.plan2{
+    font-size: 1.5rem;
+}
+.container11{
+    padding: 70px;
+}
+.container12{
+    padding:50px;
+background-color: whitesmoke;
+}
+.faq2{
+    font-size: 2.3rem;
+    font-family: "Alegreya", serif;
+    font-weight: 600;
+    background-color: whitesmoke;
+}
+.innerfaq{
+padding: 30px 30px 30px 30px;
+}
+.faq3:hover{
+text-decoration: underline;
+
+}
+.demopara{
+    font-size: 1.4rem;
+}
+.featurehead:hover{
+text-decoration: underline;
+}

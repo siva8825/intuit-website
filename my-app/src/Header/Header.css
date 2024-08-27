@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+  box-sizing: border-box;
+  
+}
+.topnav{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   padding: 9px 20px 9px 20px;
+}
+.intuit1{
+   width: 5%;
+}
+.intuit1:hover{
+   cursor: pointer;
+}
+ .firstnav{
+    text-align: center;
+    background-color: #241c15;
+    color: white;
+    padding: 10px;
+ }
+ .try{
+    font-size: small;
+     font-weight: 500;
+  }
+
+  .start{
+     text-decoration: underline;
+  }
+ .bignavbar{
+    display: flex;
+gap: 10px;
+align-items: center;
+padding: 5px;
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 99;
+ }
+ #subnavbar{
+    display: flex;
+    align-items: center;
+gap: 90px;
+ }
+ .solution{
+    display: flex;
+    align-items: center;
+ }
+ .nav1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ }
+ .nav2{
+    display: flex;
+    align-items: center;
+ gap: 15px;
+ }
+ .search{
+    font-size: 1.2rem;
+ }
+ .en{
+    display: flex;
+    align-items: center;
+ }
+ .bar{
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 1.7rem;
+}
+.lines{
+    height: 0.2rem;
+    width: 90%;
+    background-color: black;
+    border-radius: 0.2rem;
+    }
+    #hover{
+        padding: 5px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    #hover:hover{
+        background-color: whitesmoke;
+        
+        }
+
+        .btn1{
+            border: 2px solid black ;
+            border-radius: 60px;
+            padding: 8px 18px 8px 18px;
+            background-color: white;
+            color: black;
+            
+        }
+        .btn1:hover{
+         transition: 0.3s;
+         transform: translateY(-5px);
+        }
+        .btn2:hover{
+         transition: 0.3s;
+         transform: translateY(-5px);
+        }
+        .btn2{
+            border: 2px solid black ;
+            border-radius: 60px;
+            padding: 8px 18px 8px 18px;
+            background-color: rgb(253 224 71);
+            color: black;
+        }
+#drop{
+    margin-top: 16px;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        height: 580px;
+        display: none;
+    
+}
+#resourcesdrop{
+   margin-top: 16px;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        height: 480px;
+        display: none;
+}
+#drop.dropopen{
+   display: block;
+}
+#resourcesdrop.sourceopen{
+   display: block;
+}
+.bigbtn{
+ background-color: black;
+ border-radius: 30px;
+}
+
+
+ .marketing1{
+   font-family: "Baskervville SC", serif;
+       font-weight: 550;
+      font-size: 1.3rem;
+       
+   
+   }
+   .services2{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+.mailbox{
+   display: flex;
+   gap: 5px;
+   align-items: start;
+}
+.mailicon{
+width: 16%;
+  
+}
+.mailicon3{
+   width: 13%;
+}
+.bigmailbox{
+   padding: 5px;
+}
+.bigmailbox:hover{
+   background-color: whitesmoke;
+   border-radius: 5px;
+}
+.box{
+   font-size: small;
+   color: rgb(122, 117, 117);
+}
+.firsthalf{
+   height: 573px;
+   overflow:scroll;
+   overflow-x:hidden;
+   scroll-behavior: smooth;
+
+}
+.secondhalf{
+height: 573px;
+overflow:scroll;
+overflow-x:hidden;
+background-color: whitesmoke;
+
+}
+.apps{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.three{
+   color: rgb(12, 12, 12);
+   font-weight: 200;
+   font-size: small;
+   padding: 5px;
+   border-radius: 5px;
+}
+.three:hover{
+   background-color: whitesmoke;
+}
+#appimg{
+   width: 100%;
+}
+.photos{
+   display: flex;
+   justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+.name{
+   font-size: small;
+   font-weight: 300;
+}
+.bigindustry{
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+
+}
+.industry{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.proservice{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.indhead{
+   font-size: 14px;
+   font-weight: 500;
+}
+.mark{
+   background-color: #fff;
+}
+.subres{
+   background-color: #fff;
+   
+}
+.indsub{
+   font-size: small;
+   font-weight: 400;
+   padding: 5px;
+   border-radius: 5px;
+   width: fit-content;
+}
+.indsub:hover{
+background-color: whitesmoke;
+}
+.indhead1{
+   font-size: 14px;
+   font-weight: 600;
+}
+.indsub1{
+   font-size: 13px;
+   font-weight: 400;
+   padding: 5px;
+   margin-top: 10px;
+   border-radius: 5px;
+   width: fit-content;
+}
+.indsub1:hover{
+background-color: whitesmoke;
+cursor: pointer;
+}
+.icons2{
+   width: 20%;
+}
+.msgbox2{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding: 5px;
+   width: fit-content;
+
+}
+.bigmsg{
+   background-color: whitesmoke;
+}
+.indsub:hover{
+background-color: rgba(200, 200, 200, 0.418);
+cursor: pointer;
+}
+.msgbox2:hover{
+   background-color: rgba(200, 200, 200, 0.418);
+cursor: pointer;
+border-radius: 5px;
+
+}
+.indsub1:hover{
+   background-color: rgba(200, 200, 200, 0.418);
+cursor: pointer;
+}
+ @media (max-width:1100px) {
+   
+    .bignavbar{
+        display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+     }
+     #subnavbar{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+   gap: 15px;
+        width: 100%;
+        padding: 20px;
+     }
+     #subnavbar.open{
+        display: flex;
+     }
+     .nav1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .nav2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .bar{
+        display: flex;
+     }
+   #drop{
+      height: 110vh;
+   }
+#resourcedrop{
+   height: 210vh;
+}
+  .mailicon{
+   width: 5%;
+  }
+  .mailicon3{
+   width: 5%;
+  }
+  .subres{
+   padding: 0px;
+  }
+  .topnav{
+   display: none;
+  }
+ }
+ @media (max-width:500px) {
+   .services2{
+      display: flex;
+      flex-direction: column;
+      
+   }
+ }

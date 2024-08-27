@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+  box-sizing: border-box;
+
+ 
+}
+.log{
+    width: 35%;
+}
+@media (max-width:500px) {
+    .log{
+        width: 90%;
+    }
+}
+
+@media (max-width:800px) {
+    .log{
+        width: 70%;
+    }
+}
+
+@media (max-width:1000px) {
+    .log{
+        width: 50%;
+    }
+}
